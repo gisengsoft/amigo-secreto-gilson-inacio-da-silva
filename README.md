@@ -36,14 +36,18 @@ Um aplicativo web simples para realizar sorteios de amigo secreto entre amigos e
 ## Estrutura do projeto
 
 ```
-amigo-secreto/
-│
-├── index.html          # Página principal
-├── style.css           # Estilos da aplicação
-├── app.js              # Lógica de funcionamento
-└── assets/             # Imagens e recursos
-    ├── amigo-secreto.png
-    └── play_circle_outline.png
+projeto-amigo-secreto/
+├── assets/
+│   ├── amigo-secreto.png
+│   └── play_circle_outline.png
+├── demos/
+│   ├── Demo Aplicativo Amigo Secreto.mp4
+│   └── printscreen.png
+├── .gitignore
+├── README.md
+├── app.js
+├── index.html
+└── style.css
 ```
 
 ## Compatibilidade
