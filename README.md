@@ -27,6 +27,3 @@ Um aplicativo web simples para realizar sorteios de amigo secreto entre amigos e
 - JavaScript (Vanilla)
 - LocalStorage para persistência de dados
 
-## Preview
-
-![Preview do aplicativo](C:\projeto amigo secreto\challenge-amigo-secreto_pt-main\amigo-secreto\assets\preview.PNG)
