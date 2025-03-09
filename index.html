@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto - Desenvolvido por Gilson Inacio da Silva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="author" content="Gilson Inacio da Silva">
+</head>
+<body>
+    <main class="main-content">
+        <header class="header-banner">
+            <h1 class="main-title">Amigo Secreto - Gilson</h1>
+            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+        </header>
+        <section class="input-section">
+            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <div class="input-wrapper">
+                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <button class="button-add">Adicionar</button>
+            </div>
+            <ul id="listaAmigos" class="name-list"></ul>
+            
+            <div class="button-container">
+                <button class="button-draw">
+                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
+                    Sortear amigo
+                </button>
+            </div>
+            
+            <div class="modo-sorteio">
+                <label for="modo-privado">
+                    <input type="checkbox" id="modo-privado"> Modo privado (mostrar um nome por vez)
+                </label>
+            </div>
+            
+            <div id="resultado" class="result-list" aria-live="polite"></div>
+            
+            <div id="sorteio-privado" class="sorteio-privado">
+                <div class="card-sorteio">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <p>Clique para revelar</p>
+                        </div>
+                        <div class="card-back">
+                            <p id="nome-sorteado"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="controles-privado">
+                    <input type="text" id="pessoa-atual" placeholder="Digite seu nome" class="input-name">
+                    <button id="ver-amigo" class="button-ver">Ver meu amigo secreto</button>
+                    <button id="proximo" class="button-proximo">Próxima pessoa</button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="developer-info">
+                <p>Desenvolvido por Gilson Inacio da Silva</p>
+                <p>Sergipe, Brasil - Março de 2025</p>
+                <p>Todos os direitos reservados &copy; 2025</p>
+            </div>
+            <div class="github-info">
+                <p>Gostou do projeto? <a href="https://github.com/gisengsoft" target="_blank">Contribua no GitHub</a></p>
+                <p class="github-note">Se você melhorar este código, não esqueça de mencionar o desenvolvedor original.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
